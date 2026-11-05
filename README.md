@@ -91,6 +91,22 @@ NAGAD_PRIVATE_KEY=""
 
 PORT="3000"
 ```
+Fix my existing NBC – Naim-BD Community Market project.
+
+1. Completely remove demo-only Persona Switching and Guest/Admin role switching from the website.
+2. Keep only one Super Admin account: Hafiz Qari Mohammad Naim Uddin.
+3. Only the authorized Super Admin can access the Admin Dashboard, settings, approvals, user management, commission and payment controls.
+4. Customers and Merchants can register normally but must never receive Admin permissions.
+5. Implement secure backend authentication, role-based access control (RBAC) and database-level authorization.
+6. Protect all admin routes and APIs against unauthorized access.
+7. Never allow users to change their own roles or promote themselves to Admin.
+8. Remove demo accounts, fake login options and evaluation-only features.
+9. Update README.md and remove outdated Persona Switching instructions.
+10. Keep all existing NBC designs, features, database and project structure unchanged.
+11. Never expose passwords, API keys, bKash or Nagad credentials in frontend code or GitHub.
+12. Test all authentication and authorization functions before completion.
+
+IMPORTANT: Modify the actual project source code, backend and database—not just README.md. Do not create a new website or remove existing working features. Do not add fake data.
 
 ---
 
