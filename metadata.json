@@ -1,0 +1,8 @@
+{
+  "name": "NBC – Naim-BD Community Market",
+  "description": "Official community marketplace for Bangladesh founded by Naim Uddin (নাঈম উদ্দিন), located in Sylhet. Multi-vendor marketplace, verified third-party courier delivery, bKash payments, and strict admin approval.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
